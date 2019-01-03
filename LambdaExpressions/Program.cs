@@ -91,12 +91,12 @@ namespace LambdaExpressions
                                             select i).ToList();
             if (secilenPersonel!= null)
             {
-                Console.WriteLine("\nID si 3 ün alında olanlar...");
+                Console.WriteLine("\nID si 3 ün altında olanlar...");
                 Console.WriteLine("----------------------------------");
                 foreach (var item in secilenPersonel)
                 {
                     System.Console.WriteLine("ad: {0} Soyadı : {1} ", item.Ad, item.soyad);
-                    // System.Console.WriteLine("Maas : ",item.maas); Burada Hata verir..... Çünkü secilenler dizisinde maas bilgisi yok.
+                    
 
                 }
             }
