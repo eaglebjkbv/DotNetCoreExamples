@@ -8,6 +8,7 @@ namespace AnonymousType
         {
             var ogrenci=new {num=1,ad="Hasan",soyad="Can" }; // Burada oluşacak verinin class tasımalaması yapılmamış "var ogrenci" bu anonymous type dır. 
             System.Console.WriteLine($"Öğrenci No: {ogrenci.num} \nÖğrenci Adi: {ogrenci.ad}");
+            System.Console.WriteLine($"Öğrenci No: {ogrenci.num} \nÖğrenci Adi: {ogrenci.ad}");
 
             // Örnek bir Anonymous dizi oluşturma
 
