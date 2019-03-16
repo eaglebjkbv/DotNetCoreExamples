@@ -1,4 +1,5 @@
 using System;
+using System.Threading;
 namespace CustomEvent
 { 
     public class KitapEventArgs : EventArgs{
@@ -12,6 +13,7 @@ namespace CustomEvent
         public event OduncKitapEventHandler OduncKitapSuresiDoldu;
         public void OduncKitapVer(){
             System.Console.WriteLine("Kitap Ödünç Verildi .. ");
+            Thread.Sleep(3000);
             SuresiDoldu();
         }
 

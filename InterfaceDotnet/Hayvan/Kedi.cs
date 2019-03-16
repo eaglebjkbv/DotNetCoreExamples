@@ -1,7 +1,7 @@
-Using System;
+using System;
 namespace InterfaceDotnet.Hayvan
 {
-    public Kedi
+    public class Kedi :IHayvan
     {
         public string sesver()=>"Miyavvv";    
     }

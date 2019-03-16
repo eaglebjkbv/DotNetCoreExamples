@@ -1,5 +1,5 @@
 ﻿using System;
-using Hayvan.Kedi;
+using InterfaceDotnet.Hayvan;
 
 namespace InterfaceDotnet
 {
@@ -8,7 +8,7 @@ namespace InterfaceDotnet
         static void Main(string[] args)
         {
             Kedi kedi=new Kedi();
-            System.Console.WriteLine($"Kedi Sesi {kedi.sesver}");
+            System.Console.WriteLine($"Kedi Sesi {kedi.sesver()}");
         }
     }
 }

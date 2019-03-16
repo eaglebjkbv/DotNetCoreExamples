@@ -1,7 +1,7 @@
-Using System;
+using System;
 namespace InterfaceDotnet.Hayvan
 {
-    public Kopek
+    public class Kopek: IHayvan
     {
         public string sesver()=>"Hav Hav";    
     }
