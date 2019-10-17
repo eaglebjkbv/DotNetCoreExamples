@@ -9,10 +9,6 @@ namespace NameSpaceClass
         {
             Kopek dobi=new Kopek();
             System.Console.WriteLine($"Köpekler {dobi.sesver()} derler...");
-            Kedi tekir=new Kedi();
-            System.Console.WriteLine($"Kediler {tekir.sesver()} derler...");
-
-
         }
     }
 }

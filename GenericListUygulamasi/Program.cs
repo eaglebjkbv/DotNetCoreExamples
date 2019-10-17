@@ -22,6 +22,7 @@ namespace GenericListUygulamasi
             new Kitap(){id=4,adi="Merhaba Core",adet=50,cikisTarihi=DateTime.Now},
 
             };
+            
             Kitap kit1=new Kitap();
             kit1.id=5;
             kit1.adi="Merhaba Asp.Net";
