@@ -24,6 +24,8 @@ namespace ClassExample
             ogrenci.dogumTarihi=new DateTime(2019,1,1);
 
             Console.WriteLine(ogrenci.yaz());
+            Console.WriteLine(ogrenci.yaz());
+            
         }
     }
 }
