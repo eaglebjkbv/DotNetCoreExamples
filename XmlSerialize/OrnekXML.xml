@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Ornek xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <x>10</x>
+  <y>20</y>
+  <z>
+    <string>Deneme1</string>
+    <string>Deneme2</string>
+    <string>Deneme3</string>
+  </z>
+</Ornek>
